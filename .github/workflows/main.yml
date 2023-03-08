@@ -25,4 +25,4 @@ jobs:
         make
     # Run tests
     - name : Test
-      run: test/masuperlib-test
+      run: test/masuperlib/masuperlib-test
