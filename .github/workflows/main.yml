@@ -18,8 +18,5 @@ jobs:
 
     # Build project
     -name: Build
-      run: |
-        cd build
-        cmake ..
-        make
+      run: cmake --build ${{github.workspace}}/build
     # Run tests 
